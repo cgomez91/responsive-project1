@@ -38,6 +38,29 @@ p {
   line-height: 1.5;
 }
 
+@media (max-width:625px){
+  .container,mb-3,.primary-link{
+    
+    text-align: center;
+    display: block;
+    
+  }
+ img{
+  display: none;
+ }
+}
+
+@media (max-width:767px){
+  .primary-link{
+    text-align: center;
+    display: block;
+  }
+ img{
+  display:none;
+ }
+}
+
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -71,9 +94,7 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.mb-3 {
-  text-align: left;
-}
+
 
 .homepage-link {
   color: var(--primary-color);
